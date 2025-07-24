@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Details</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+</head>
+<body>
+<div class="container mt-5">
+    <h2>Enter Personal Details</h2>
+    <form method="POST">
+        <label>Name</label>
+        <input type="text" name="name" class="form-control mb-3" required>
+        <label>Age</label>
+        <input type="number" name="age" class="form-control mb-3" required>
+        <label>Gender</label>
+        <select name="gender" class="form-control mb-3" required>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+        <label>ID Proof (Aadhar, PAN, etc)</label>
+        <input type="text" name="id_proof" class="form-control mb-3" required>
+        <button class="btn btn-primary">Confirm</button>
+    </form>
+</div>
+</body>
+</html>
